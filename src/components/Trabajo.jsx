@@ -16,7 +16,7 @@ export default function Trabajo({ handle, data }) {
 
     <article key={trabajos.id} className='job-card'>
       <div className="job-img">
-        <img src={`.${trabajos.logo}`} alt={`Logo de ${trabajos.company}`} />
+        <img src={`./src/${trabajos.logo}`} alt={`Logo de ${trabajos.company}`} />
       </div>
       <div className="job-body">
         <div className="job-text">

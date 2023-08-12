@@ -1,4 +1,4 @@
-
+import deleteImage from './images/icon-remove.svg'
 export default function Filtros({ listadoFiltros, handleDelete, handleClear }) {
 
     if (listadoFiltros.length > 0) {
@@ -12,7 +12,7 @@ export default function Filtros({ listadoFiltros, handleDelete, handleClear }) {
                         <span>
                             {response.nombreFiltro}
                         </span>
-                        <img src="./src/images/icon-remove.svg" alt="Icono de borrar filtro" />
+                        <img src={deleteImage} alt="Icono de borrar filtro" />
                     </div>
                 </article>
 

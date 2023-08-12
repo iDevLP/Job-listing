@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Trabajo from './components/Trabajo';
 import Filtros from './components/Filtros';
 import work from './data.json'
-import headerImage from './assets/images/bg-header-desktop.svg'
+import headerImage from './images/bg-header-desktop.svg'
 
 function App() {
   const [filtro, setfiltro] = useState([]);

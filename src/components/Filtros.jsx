@@ -1,4 +1,4 @@
-import deleteImage from './images/icon-remove.svg'
+import deleteImage from '../images/icon-remove.svg'
 export default function Filtros({ listadoFiltros, handleDelete, handleClear }) {
 
     if (listadoFiltros.length > 0) {

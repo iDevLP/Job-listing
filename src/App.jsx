@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Trabajo from './components/Trabajo';
 import Filtros from './components/Filtros';
 import work from './data.json'
+import headerImage from './assets/images/bg-header-desktop.svg'
 
 function App() {
   const [filtro, setfiltro] = useState([]);
@@ -52,7 +53,7 @@ function App() {
   return (
     <div>
       <header>
-        <img src="./src/images/bg-header-desktop.svg" className='banner' alt="" />
+        <img src={headerImage} className='banner' alt="" />
       </header>
       <Filtros
         listadoFiltros={filtro}
